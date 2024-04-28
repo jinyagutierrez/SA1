@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>[S1-SUMMATIVE]</title>
+</head>
+<body>
+    <!--table-->
+    <table border="1" width="50%" style="font-family: Arial;"> 
+        <tr bgcolor="lightblue">
+            <th colspan="6">INVENTORY SYSTEMS</th>
+        </tr>
+        <tr bgcolor="lightgray">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Supplier</th>
+            <th>Date</th>
+            <th>Image</th>
+        </tr>
+        <tr align="center">
+            <td>10001</td>
+            <td align="left">Boy Bawang Adobo (pc)</td>
+            <td>1000</td>
+            <td rowspan="8" bgcolor="yellow"><strong>KSK</strong></td>
+            <td rowspan="2">5/14/2019</td>
+            <th rowspan="8"><img src="boybawang.jpg" width="100"></th>
+        </tr> 
+        <tr align="center">
+            <td>10002</td>
+            <td align="left">Boy Bawang Adobo (pack)</td>
+            <td>200</td>
+            
+    
+        </tr>
+        <tr align="center" bgcolor="lightgray">
+            <td>10003</td>
+            <td align="left">Boy Bawang Garlic (pc)</td>
+            <td>3000</td>
+            <td rowspan="2">5/15/2019</td>
+            
+        </tr>
+        <tr align="center"bgcolor="lightgray">
+            <td>10004</td>
+            <td align="left">Boy Bawang Garlic (pack)</td>
+            <td style="color:red">150</td>
+           
+        </tr>
+        <tr align="center">
+            <td>10005</td>
+            <td align="left">Boy Bawang Spicy (pc)</td>
+            <td>4000</td>
+            <td rowspan="2">5/16/2019</td>
+        </tr>
+        <tr align="center">
+            <td>10006</td>
+            <td align="left">Boy Bawang Spicy (pack)</td>
+            <td>240</td>
+            
+        </tr>
+        <tr align="center" bgcolor="lightgray">
+            <td>10007</td>
+            <td align="left">Boy Bawang BBQ (pc)</td>
+            <td>3000</td>
+            <td rowspan="2">5/17/2019</td>
+        </tr>
+        <tr align="center" bgcolor="lightgray">
+            <td>10008</td>
+            <td align="left">Boy Bawang BBQ (pack)</td>
+            <td>210</td>
+            
+        </tr>
+    </table><br><br>
+
+
+
+    
+<!--contact form-->
+
+<h1 style="margin-left: 20px;">Contact Form</h1>
+  <form action="/submit" method="POST" style="margin-left: 20px;">
+    <ul style="list-style-type:none; padding-left: 0;">
+      <li>
+        <label for="name">Your Name*</label><br>
+        <input type="text" id="name" name="name" required size="50"><br><br>
+      </li>
+      <li>
+        <label for="email">Email*</label><br>
+        <input type="email" id="email" name="email" required size="50"><br><br>
+      </li>
+      <li>
+        <label for="contact">Contact No.*</label><br>
+        <input type="tel" id="contact" name="contact" required size="25"><br><br>
+      </li>
+      <li>
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+      </li>
+    </ul>
+    <p>required field*</p>
+    <input type="submit" value="Send" style="background-color: #007bff; color: white; padding: 8px 15px; border: none; border-radius: 5px;">
+  </form>
+</body>
+</html>
+
+
+
+
+
+
+
